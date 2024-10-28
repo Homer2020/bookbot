@@ -10,7 +10,6 @@ def word_count(book):
     return len(words)
 
 def char_count(book):
-    
     char_dic = {}
     for word in book:
         for letter in word.lower():
